@@ -9,7 +9,7 @@ const selectors = {
   start: document.querySelector('[data-start]'),
   stop: document.querySelector('[data-stop]'),
 };
-console.dir(selectors.start);
+let setColor;
 selectors.start.addEventListener('click', onStart);
 selectors.stop.addEventListener('click', onStop);
 
